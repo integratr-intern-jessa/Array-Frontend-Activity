@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Info</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <form id="user-info">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name">
+      <label for="middle-name">Middle Name:</label>
+      <input type="text" id="middle-name">
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name">
+      <label for="sports">Select Sports:</label>
+      <label><input type="checkbox" name="sports[]" value="Basketball"> Football</label>
+      <label><input type="checkbox" name="sports[]" value="Volleyball"> Basketball</label>
+      <label><input type="checkbox" name="sports[]" value="Badminton"> Baseball</label>
+      <label><input type="checkbox" name="sports[]" value="Soccer"> Hockey</label>
+      <label><input type="checkbox" name="sports[]" value="Baseball"> Soccer</label>
+      <label><input type="checkbox" name="sports[]" value="Tennis"> Soccer</label>
+      <label><input type="checkbox" name="sports[]" value="Surfing"> Soccer</label>
+      <input type="submit" value="Submit">
+    </form>
+    <div id="output"></div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>

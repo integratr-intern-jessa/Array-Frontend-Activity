@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Info</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form id="user-name">
+        <div class="form-control">
+          <input type="text" id="fname" placeholder="First Name">
+        </div>
+        <div class="form-control">
+          <input type="text" id="mname" placeholder="Middle Name">
+        </div>
+        <div class="form-control">
+          <input type="text" id="lname" placeholder="Last Name">
+        </div>
+        <div class="form-sports">
+          <br>
+          <label for="sports">Sports</label><br><br>
+          <label>
+          <input type="checkbox" name="sports[]" value="Basketball"> Basketball</label><br>
+          <label>
+          <input type="checkbox" name="sports[]" value="Volleyball"> Volleyball</label><br>
+          <label>
+          <input type="checkbox" name="sports[]" value="Badminton"> Badminton</label><br>
+          <label>
+          <input type="checkbox" name="sports[]" value="Soccer"> Soccer</label><br>
+          <label>
+          <input type="checkbox" name="sports[]" value="Baseball"> Baseball</label><br>
+          <label>
+          <input type="checkbox" name="sports[]" value="Tennis"> Tennis</label><br>
+          <label>
+          <input type="checkbox" name="sports[]" value="Surfing"> Surfing</label><br><br>
+          <!-- <input type="submit" value="Print"> -->
+          <button onclick="checkresult()">Print</button>
+        </div>
+      </form>
+      <div id="output">
+        <br><span>Full Name:</span><br><br>
+        <span>Sports:</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
