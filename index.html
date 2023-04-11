@@ -1,3 +1,4 @@
+<!-- CHEAT SHEET: ! -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- !-- CHEAT SHEET: .title, #header, form#search.form, inp, script -->
     <div class="container">
-      <form id="user-name">
+      <form id="users-name">
         <div class="form-control">
           <input type="text" id="fname" placeholder="First Name">
         </div>
@@ -34,13 +36,10 @@
           <input type="checkbox" name="sports[]" value="Tennis"> Tennis</label><br>
           <label>
           <input type="checkbox" name="sports[]" value="Surfing"> Surfing</label><br><br>
-          <!-- <input type="submit" value="Print"> -->
-          <button onclick="checkresult()">Print</button>
+          <button onclick="printUsersInfo()">Print</button>
         </div>
       </form>
       <div id="output">
-        <br><span>Full Name:</span><br><br>
-        <span>Sports:</span>
       </div>
     </div>
     <script src="script.js"></script>
